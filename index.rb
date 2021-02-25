@@ -1,1 +1,8 @@
-puts sprintf('%0.3f', 1.2)
+status = 'error'
+if status != 'ok'
+  puts '何か異常があります'
+end
+
+unless status == 'ok'
+  puts '何か異常があります'
+end
