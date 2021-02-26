@@ -1,8 +1,11 @@
-status = 'error'
-if status != 'ok'
-  puts '何か異常があります'
-end
-
-unless status == 'ok'
-  puts '何か異常があります'
+country = 'italy'
+case country
+when 'japan'
+  puts 'こんにちは'
+when 'us'
+  puts 'Hello'
+when 'italy'
+  puts 'ciao'
+else
+  puts '???'
 end
