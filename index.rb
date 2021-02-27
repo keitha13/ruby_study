@@ -1,11 +1,9 @@
-country = 'italy'
-case country
-when 'japan'
-  puts 'こんにちは'
-when 'us'
-  puts 'Hello'
-when 'italy'
-  puts 'ciao'
-else
-  puts '???'
+def foo(time = Time.now, message = bar)
+  "time: #{time}, message: #{message}"
 end
+
+def bar
+  'BAR'
+end
+
+puts foo
