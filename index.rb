@@ -1,5 +1,12 @@
-# quo_rem = 14.divmod(3)
-# puts "商=#{quo_rem[0]}, 余り=#{quo_rem[1]}"
+# numbers = [1,2,3,4]
+# sum = 0
+# numbers.each do |n|
+#   sum += n
+# end
+# puts sum
 
-quotient, remainder = 14.divmod(3)
-puts "商=#{quotient}, 余り=#{remainder}"
+a = [1,2,3,1,2,3]
+a.delete_if do |n|
+  n.odd?
+end
+p a
